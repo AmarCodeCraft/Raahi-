@@ -1,9 +1,11 @@
 {
   "name": "uber",
   "version": "1.0.0",
-  "description": "this is uber app clone ",
+  "description": "Your trusted ride-sharing app for safe, quick, and affordable travel. Book cabs in minutes, track rides live, and reach your destination with ease — because every journey needs a Raahi.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,9 +15,13 @@
   "author": "Amar kumar",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.16.3"
   },
   "devDependencies": {
